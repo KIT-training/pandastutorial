@@ -1,9 +1,10 @@
+# pip install pandas 
 import pandas as pd
 
-# initialize list of lists
 data = [['tom', 10], ['nick', 15], ['juli', 14]]
 
-# Create the pandas DataFrame
-df = pd.DataFrame(data, columns=['Name', 'Age'])
 
-print(df)
+# data2 = [{'name':'aung aung', 'phone':'04520672'}]
+df = pd.DataFrame(data)
+
+print(df.head())

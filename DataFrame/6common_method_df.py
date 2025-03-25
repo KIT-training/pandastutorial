@@ -9,4 +9,5 @@
 #  drop():  Removes specified labels from rows or columns. 
 #  pivot_table():  Creates a pivot table. 
 #  fillna(): Fills NA/NaN values. 
-#  isnull():  Detects missing values. 
+#  isnull():  Detects missing values.
+# loc(), iloc() :calling locations
